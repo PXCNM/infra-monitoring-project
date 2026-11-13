@@ -16,4 +16,4 @@ jobs:
           bash -n analyze_logs.sh
 
       - name: Test check_api.sh
-        run: check_api.sh https://httpbin.org/status/200
+        run: ./check_api.sh https://httpbin.org/status/200
